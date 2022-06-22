@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+  </head>
+  <body class="bg-light">
+    <div class="container vw-100 vh-100">
+      <button
+        class="btn btn-danger d-none"
+        data-bs-toggle="modal"
+        data-bs-target="#login"
+        id="btn-login"
+      >
+        Login
+      </button>
+      <div
+        class="modal"
+        data-bs-keyboard="false"
+        data-bs-backdrop="static"
+        tabindex="-1"
+        id="login"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header d-flex justify-content-center">
+              <h3 class="modal-title text-danger login ">LogIn</h3>
+            </div>
+            <div class="modal-body">
+              <form action="" method="get" class="needs-validation" novalidate >
+                <label for="name"><h5>User Name</h5></label>
+                <div class="input-group">
+                  <span class="input-group-text"
+                    ><i class="fa-solid fa-user"></i
+                  ></span>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="form-control"
+                    required
+                  />
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                  <div class="invalid-feedback"> </div>
+                </div>
+                <label for="level" class="mt-2"> <h5>Level</h5></label>
+                <select
+                  name="level"
+                  id="level"
+                  class="form-select form-control"
+                  required
+                >
+                  <option value="one">Level one (4*4)</option>
+                  <option value="two" class="text-danger">
+                    Level two (9*9)
+                  </option>
+                </select>
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-danger">
+                LogIn
+              </button>
+            </div>
+        </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/login.js"></script>
+  </body>
+</html>

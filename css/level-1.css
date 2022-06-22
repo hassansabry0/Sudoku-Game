@@ -1,0 +1,22 @@
+.container {
+  background-image: url("../images/bg-level-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.group1 {
+  box-shadow: 10px 10px 10px #d47b84;
+}
+.group2 {
+  box-shadow: -10px 10px 10px #d47b84;
+}
+.group3 {
+  box-shadow: 10px -10px 10px #d47b84;
+}
+.group4 {
+  box-shadow: -10px -10px 10px #d47b84;
+}
+/* for images */
+.w-100 {
+  height: 150px;
+  border-radius: 20px;
+}

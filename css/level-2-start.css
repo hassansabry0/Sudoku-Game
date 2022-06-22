@@ -1,0 +1,44 @@
+.container {
+  background-image: url("../images/start.jpg");
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
+.w-100 {
+  border-radius: 15px;
+}
+
+.images {
+  background-color: rgba(173, 167, 167, 0.5);
+  box-shadow: 15px 15px 10px #d47b84;
+  border-radius: 15px;
+}
+.images img {
+  height: 150px;
+}
+.square,
+.ceil {
+  border-radius: 10px;
+}
+.square img {
+  height: 100px;
+}
+#timer {
+  border-radius: 10px;
+  box-shadow: 15px 15px 10px #d47b84 inset;
+  font-weight: bold;
+}
+
+.container-fluid {
+  background-image: url("../images/start.jpg");
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
+.selected {
+  box-shadow: 15px 15px 50px #d47b84 inset, -15px -15px 40px #d47b84 inset;
+}
+
+.notSelect {
+  box-shadow: 15px 15px 50px #dab2b6 inset, -15px -15px 40px #cec5c5 inset;
+}

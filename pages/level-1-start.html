@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Start game</title>
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/level-1-start.css" />
+  </head>
+  <body class="bg-light">
+    <div class="container vw-100 vh-100">
+      <section class="row">
+        <!-- 4 images -->
+        <div
+          class="col-12 order-last col-md-8 order-md-first p-3 border border-2 border-danger images"
+        >
+          <div class="row">
+            <div class="col-3">
+              <img class="w-100 h-75" id="one" src="" alt="" />
+              <p
+                class="mb-0 border border-dark rounded rounded-3 border-2 p-1 d-flex justify-content-center"
+              >
+                1
+              </p>
+            </div>
+            <div class="col-3">
+              <img class="w-100 h-75" id="two" src="" alt="" />
+              <p
+                class="mb-0 border border-dark rounded rounded-3 border-2 p-1 d-flex justify-content-center"
+              >
+                2
+              </p>
+            </div>
+            <div class="col-3">
+              <img class="w-100 h-75" id="three" src="" alt="" />
+              <p
+                class="mb-0 border border-dark rounded rounded-3 border-2 p-1 d-flex justify-content-center"
+              >
+                3
+              </p>
+            </div>
+            <div class="col-3">
+              <img class="w-100 h-75" id="four" src="" alt="" />
+              <p
+                class="mb-0 border border-dark rounded rounded-3 border-2 p-1 d-flex justify-content-center"
+              >
+                4
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end 4 images  -->
+        <!-- name -->
+        <div
+          class="col-12 mt-2 order-first col-md-4 mt-md-0 order-md-last d-flex justify-content-center align-items-center"
+        >
+          <h3 class="border-bottom border-2 border-dark" id="name">
+            Welcome Hassan
+          </h3>
+        </div>
+        <!-- end of name -->
+      </section>
+      <section class="row mt-2">
+        <!-- game -->
+        <div
+          class="col-12 order-last col-md-10 order-md-first p-3 border border-2 border-danger images game"
+        >
+          <div class="row game">
+            <!-- square-1 -->
+            <div class="col-6 border border-2 border-dark square sq-1">
+              <div class="row">
+                <div class="col-6 border border-1 border-danger ceil">
+                  <img class="w-100" id="0" alt="" />
+                </div>
+                <div class="col-6 border border-1 border-danger ceil">
+                  <img class="w-100" id="1" alt="" />
+                </div>
+                <div class="col-6 border border-1 border-danger ceil">
+                  <img class="w-100" id="4" alt="" />
+                </div>
+                <div class="col-6 border border-1 border-danger ceil">
+                  <img class="w-100" id="5" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- square-2 -->
+            <div class="col-6 border border-2 border-dark square sq-2">
+              <div class="row">
+                <div class="col-6 border border-1 border-danger ceil">
+                  <img class="w-100" id="2" alt="" />
+                </div>
+                <div class="col-6 border border-1 border-danger ceil">
+                  <img class="w-100" id="3" alt="" />
+                </div>
+                <div class="col-6 border border-1 border-danger ceil">
+                  <img class="w-100" id="6" alt="" />
+                </div>
+                <div class="col-6 border border-1 border-danger ceil">
+                  <img class="w-100" id="7" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- square-3 -->
+            <div class="col-6 border border-2 border-dark square sq-3">
+              <div class="row">
+                <div class="col-6 border border-1 border-danger ceil">
+                  <img class="w-100" id="8" alt="" />
+                </div>
+                <div class="col-6 border border-1 border-danger ceil">
+                  <img class="w-100" id="9" alt="" />
+                </div>
+                <div class="col-6 border border-1 border-danger ceil">
+                  <img class="w-100" id="12" alt="" />
+                </div>
+                <div class="col-6 border border-1 border-danger ceil">
+                  <img class="w-100" id="13" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- square-4 -->
+            <div class="col-6 border border-2 border-dark square sq-4">
+              <div class="row">
+                <div class="col-6 border border-1 border-danger ceil">
+                  <img class="w-100" id="10" alt="" />
+                </div>
+                <div class="col-6 border border-1 border-danger ceil">
+                  <img class="w-100" id="11" alt="" />
+                </div>
+                <div class="col-6 border border-1 border-danger ceil">
+                  <img class="w-100" id="14" alt="" />
+                </div>
+                <div class="col-6 border border-1 border-danger ceil">
+                  <img class="w-100" id="15" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- end game -->
+        <!-- start button -->
+        <div
+          class="col-12 mt-2 order-first col-md-2 mt-md-0 order-md-last d-flex flex-column justify-content-start align-items-center"
+        >
+          <button class="btn btn-danger border border-1 border-dark start">
+            Start
+          </button>
+          <div class="mt-2 py-2 px-4 border border-1 border-danger" id="timer">
+            01:00
+          </div>
+          <!-- end button -->
+
+          <!--  btn to show modal-->
+          <button
+            class="col-12 d-none"
+            data-bs-toggle="modal"
+            data-bs-target="#finished"
+            id="btn-finish"
+          ></button>
+        </div>
+
+        <!-- modal display when end game -->
+
+        <div
+          class="modal"
+          data-bs-keyboard="false"
+          data-bs-backdrop="static"
+          tabindex="-1"
+          id="finished"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header d-flex justify-content-center">
+                <h3 class="modal-title text-danger message"></h3>
+              </div>
+              <div class="modal-body d-flex justify-content-center">
+                <button class="btn btn-danger restart">Restart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/game.js"></script>
+    <script src="../js/level-1-start.js"></script>
+  </body>
+</html>

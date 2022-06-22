@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Start game</title>
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/level-2-start.css" />
+  </head>
+  <body class="bg-light">
+    <div class="container">
+      <section class="row">
+        <div
+          class="col-12 mt-2 d-flex justify-content-center align-items-center"
+        >
+          <h3 class="border-bottom border-2 border-dark" id="name">
+            Welcome Hassan
+          </h3>
+        </div>
+        <!-- 9 images -->
+        <div class="col-12 p-3 border border-2 border-danger images">
+          <div class="row">
+            <div class="col-4">
+              <img class="w-100" id="one" alt="" />
+              <p
+                class="mb-0 border border-dark rounded rounded-3 border-2 p-1 d-flex justify-content-center"
+              >
+                1
+              </p>
+            </div>
+            <div class="col-4">
+              <img class="w-100" id="two" alt="" />
+              <p
+                class="mb-0 border border-dark rounded rounded-3 border-2 p-1 d-flex justify-content-center"
+              >
+                2
+              </p>
+            </div>
+            <div class="col-4">
+              <img class="w-100" id="three" alt="" />
+              <p
+                class="mb-0 border border-dark rounded rounded-3 border-2 p-1 d-flex justify-content-center"
+              >
+                3
+              </p>
+            </div>
+            <div class="col-4">
+              <img class="w-100" id="four" alt="" />
+              <p
+                class="mb-0 border border-dark rounded rounded-3 border-2 p-1 d-flex justify-content-center"
+              >
+                4
+              </p>
+            </div>
+            <div class="col-4">
+              <img class="w-100" id="five" alt="" />
+              <p
+                class="mb-0 border border-dark rounded rounded-3 border-2 p-1 d-flex justify-content-center"
+              >
+                5
+              </p>
+            </div>
+            <div class="col-4">
+              <img class="w-100" id="six" alt="" />
+              <p
+                class="mb-0 border border-dark rounded rounded-3 border-2 p-1 d-flex justify-content-center"
+              >
+                6
+              </p>
+            </div>
+            <div class="col-4">
+              <img class="w-100" id="seven" alt="" />
+              <p
+                class="mb-0 border border-dark rounded rounded-3 border-2 p-1 d-flex justify-content-center"
+              >
+                7
+              </p>
+            </div>
+            <div class="col-4">
+              <img class="w-100" id="eight" src="" alt="" />
+              <p
+                class="mb-0 border border-dark rounded rounded-3 border-2 p-1 d-flex justify-content-center"
+              >
+                8
+              </p>
+            </div>
+            <div class="col-4">
+              <img class="w-100" id="nine" src="" alt="" />
+              <p
+                class="mb-0 border border-dark rounded rounded-3 border-2 p-1 d-flex justify-content-center"
+              >
+                9
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end 4 images  -->
+        <!-- name -->
+
+        <!-- end of name -->
+      </section>
+    </div>
+    <div class="container-fluid">
+      <section class="row mt-2">
+        <!-- start button -->
+        <div
+          class="col-12 mt-2 d-flex flex-column justify-content-start align-items-center"
+        >
+          <button class="btn btn-danger border border-1 border-dark start">
+            Start
+          </button>
+          <div class="mt-2 py-2 px-4 border border-1 border-danger" id="timer">
+            02:00
+          </div>
+        </div>
+        <!-- end button -->
+
+        <!-- game -->
+        <div class="col-12 p-3 border border-2 border-danger images game">
+          <div class="row game">
+            <!-- square-1 -->
+            <div class="col-4 border border-2 border-dark square sq-1">
+              <div class="row">
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="0" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="1" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="2" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="9" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="10" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="11" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="18" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="19" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="20" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- square-2 -->
+            <div class="col-4 border border-2 border-dark square sq-2">
+              <div class="row">
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="3" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="4" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="5" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="12" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="13" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="14" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="21" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="22" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="23" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- square-3 -->
+            <div class="col-4 border border-2 border-dark square sq-3">
+              <div class="row">
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="6" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="7" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="8" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="15" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="16" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="17" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="24" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="25" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="26" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- square-4 -->
+            <div class="col-4 border border-2 border-dark square sq-4">
+              <div class="row">
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="27" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="28" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="29" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="36" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="37" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="38" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="45" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="46" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="47" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- square-5 -->
+            <div class="col-4 border border-2 border-dark square sq-5">
+              <div class="row">
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="30" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="31" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="32" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="39" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="40" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="41" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="48" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="49" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="50" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- square-6 -->
+            <div class="col-4 border border-2 border-dark square sq-6">
+              <div class="row">
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="33" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="34" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="35" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="42" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="43" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="44" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="51" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="52" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="53" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- square-7 -->
+            <div class="col-4 border border-2 border-dark square sq-7">
+              <div class="row">
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="54" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="55" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="56" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="63" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="64" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="65" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="72" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="73" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="74" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- square-8 -->
+            <div class="col-4 border border-2 border-dark square sq-8">
+              <div class="row">
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="57" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="58" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="59" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="66" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="67" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="68" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="75" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="76" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="77" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- square-9 -->
+            <div class="col-4 border border-2 border-dark square sq-9">
+              <div class="row">
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="60" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="61" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="62" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="69" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="70" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="71" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="78" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="79" alt="" />
+                </div>
+                <div class="col-4 border border-1 border-danger ceil">
+                  <img class="w-100" id="80" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end game -->
+        <!--  btn to show modal-->
+        <button
+          class="col-12 d-none"
+          data-bs-toggle="modal"
+          data-bs-target="#finished"
+          id="btn-finish"
+        ></button>
+        <!-- modal display when end game -->
+        <div
+          class="modal"
+          data-bs-keyboard="false"
+          data-bs-backdrop="static"
+          tabindex="-1"
+          id="finished"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header d-flex justify-content-center">
+                <h3 class="modal-title text-danger message"></h3>
+              </div>
+              <div class="modal-body d-flex justify-content-center">
+                <button class="btn btn-danger restart">Restart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/level-2-start.js"></script>
+  </body>
+</html>

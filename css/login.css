@@ -1,0 +1,12 @@
+.container {
+  background-image: url("../images/bg-login.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.modal-content {
+  box-shadow: 10px 0 10px #dc3545;
+  background-color: rgb(245, 240, 240, 0.7);
+}
+.login {
+  text-shadow: 20px 20px 20px black, -20px -20px 20px black;
+}
